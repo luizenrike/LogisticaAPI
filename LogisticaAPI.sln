@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticaAPI", "LogisticaAPI\LogisticaAPI.csproj", "{7C601E21-C115-4B84-8997-B78A20D64E9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{8567D89B-C289-41D5-8911-334173764FF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticaAPI.ApplicationServices", "LogisticaAPI.ApplicationServices\LogisticaAPI.ApplicationServices.csproj", "{F9F8FF00-23F0-4757-934A-334DECF6A4A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F596E25A-3FB3-4C7F-AF23-5C4884046A83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticaAPI.Domain", "LogisticaAPI.Domain\LogisticaAPI.Domain.csproj", "{433FBE69-6DF2-4BA1-8D9C-CD7279478400}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{D18BE2C6-B663-41C4-8161-2878042E3807}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticaAPI.Infra", "LogisticaAPI.Infra\LogisticaAPI.Infra.csproj", "{95C1A4D7-7AB3-4EB3-AD40-688C9352AF78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{50980434-A9B6-4E24-BFB5-813495767C61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticaAPI.UnitTests", "LogisticaAPI.Tests\LogisticaAPI.UnitTests.csproj", "{19AC6381-A7AE-4A09-839C-CD2881803064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C601E21-C115-4B84-8997-B78A20D64E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C601E21-C115-4B84-8997-B78A20D64E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C601E21-C115-4B84-8997-B78A20D64E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C601E21-C115-4B84-8997-B78A20D64E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F8FF00-23F0-4757-934A-334DECF6A4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F8FF00-23F0-4757-934A-334DECF6A4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F8FF00-23F0-4757-934A-334DECF6A4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F8FF00-23F0-4757-934A-334DECF6A4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433FBE69-6DF2-4BA1-8D9C-CD7279478400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433FBE69-6DF2-4BA1-8D9C-CD7279478400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433FBE69-6DF2-4BA1-8D9C-CD7279478400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433FBE69-6DF2-4BA1-8D9C-CD7279478400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C1A4D7-7AB3-4EB3-AD40-688C9352AF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C1A4D7-7AB3-4EB3-AD40-688C9352AF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C1A4D7-7AB3-4EB3-AD40-688C9352AF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C1A4D7-7AB3-4EB3-AD40-688C9352AF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19AC6381-A7AE-4A09-839C-CD2881803064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AC6381-A7AE-4A09-839C-CD2881803064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AC6381-A7AE-4A09-839C-CD2881803064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AC6381-A7AE-4A09-839C-CD2881803064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C601E21-C115-4B84-8997-B78A20D64E9F} = {8567D89B-C289-41D5-8911-334173764FF0}
+		{F9F8FF00-23F0-4757-934A-334DECF6A4A0} = {8567D89B-C289-41D5-8911-334173764FF0}
+		{433FBE69-6DF2-4BA1-8D9C-CD7279478400} = {F596E25A-3FB3-4C7F-AF23-5C4884046A83}
+		{95C1A4D7-7AB3-4EB3-AD40-688C9352AF78} = {D18BE2C6-B663-41C4-8161-2878042E3807}
+		{19AC6381-A7AE-4A09-839C-CD2881803064} = {50980434-A9B6-4E24-BFB5-813495767C61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99DC7C74-13DB-48A0-AC19-691FDD352B6C}
+	EndGlobalSection
+EndGlobal
