@@ -27,7 +27,7 @@ namespace LogisticaAPI.ApplicationServices.Services
             _configuration = configuration;
         }
 
-        public string GetLogin(string email, string senha)
+        public async Task<string> GetLogin(string email, string senha)
         {
             var funcionario = _repository.GetLogin(email, senha);
             if(funcionario != null)
