@@ -52,7 +52,7 @@ namespace LogisticaAPI.Controllers
         [TypeFilter(typeof(ConfigException))]
         [HttpGet]
         [Route("login")]
-        public string GetLogin([FromQuery]string email, [FromQuery] string senha) => _service.GetLogin(email, senha);
+        public Task<string> GetLogin([FromQuery]string email, [FromQuery] string senha) => _service.GetLogin(email, senha);
 
         /// <summary>
         /// Criação de um novo funcionário
