@@ -29,7 +29,7 @@ namespace LogisticaAPI.Controllers
         /// 
         ///     (1) Email:
         ///     
-        ///         Ex: admin@logitisca.com
+        ///         Ex: admin@logistica.com
         ///         
         ///     (2) Senha:
         ///     
